@@ -1255,7 +1255,7 @@ GameObject:
   - component: {fileID: 321725962}
   - component: {fileID: 321725964}
   - component: {fileID: 321725963}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Purple
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1364,7 +1364,7 @@ GameObject:
   - component: {fileID: 324154690}
   - component: {fileID: 324154692}
   - component: {fileID: 324154691}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Brown (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1571,6 +1571,100 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &396222791
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2931050962251950549, guid: c0818f37783b54680ae67d69b9ceee76, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2931050962251950549, guid: c0818f37783b54680ae67d69b9ceee76, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 2931050962251950549, guid: c0818f37783b54680ae67d69b9ceee76, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2931050962251950549, guid: c0818f37783b54680ae67d69b9ceee76, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2931050962251950549, guid: c0818f37783b54680ae67d69b9ceee76, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2931050962251950549, guid: c0818f37783b54680ae67d69b9ceee76, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2931050962251950549, guid: c0818f37783b54680ae67d69b9ceee76, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2931050962251950549, guid: c0818f37783b54680ae67d69b9ceee76, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2931050962251950549, guid: c0818f37783b54680ae67d69b9ceee76, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2931050962251950549, guid: c0818f37783b54680ae67d69b9ceee76, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8593403036184563498, guid: c0818f37783b54680ae67d69b9ceee76, type: 3}
+      propertyPath: m_Name
+      value: CharacterMover
+      objectReference: {fileID: 0}
+    - target: {fileID: 8593403036184563498, guid: c0818f37783b54680ae67d69b9ceee76, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 9016590471437704904, guid: c0818f37783b54680ae67d69b9ceee76, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8593403036184563498, guid: c0818f37783b54680ae67d69b9ceee76, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 396222793}
+  m_SourcePrefab: {fileID: 100100000, guid: c0818f37783b54680ae67d69b9ceee76, type: 3}
+--- !u!1 &396222792 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8593403036184563498, guid: c0818f37783b54680ae67d69b9ceee76, type: 3}
+  m_PrefabInstance: {fileID: 396222791}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &396222793
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 396222792}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &397036258
 GameObject:
   m_ObjectHideFlags: 0
@@ -2705,7 +2799,7 @@ GameObject:
   - component: {fileID: 785774995}
   - component: {fileID: 785774997}
   - component: {fileID: 785774996}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Brown
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4286,7 +4380,7 @@ GameObject:
   - component: {fileID: 1507626206}
   - component: {fileID: 1507626208}
   - component: {fileID: 1507626207}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Pink
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4938,7 +5032,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1554614180}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Background Platforms
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5631,7 +5725,7 @@ GameObject:
   - component: {fileID: 1773488913}
   - component: {fileID: 1773488915}
   - component: {fileID: 1773488914}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Blue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6357,7 +6451,7 @@ GameObject:
   - component: {fileID: 2041667355}
   - component: {fileID: 2041667357}
   - component: {fileID: 2041667356}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6563,3 +6657,4 @@ SceneRoots:
   - {fileID: 1288116217}
   - {fileID: 1312016801}
   - {fileID: 468750613}
+  - {fileID: 396222791}
